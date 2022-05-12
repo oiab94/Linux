@@ -7,3 +7,4 @@ alias upgrade='sudo apt upgrade; echo -e'
 alias install='sudo apt install'
 
 # GIT alias
+alias clone='git clone'   #Clona un repositorio
