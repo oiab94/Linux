@@ -7,6 +7,7 @@ alias upgrade='sudo apt upgrade; echo -e'
 alias install='sudo apt install'
 
 # GIT alias
+<<<<<<< HEAD
 alias clone='git clone'                # Clona un repositorio                        
 alias fetch='git fetch'                 # Verifica si existe actualización en el repo 
 alias pull='git pull'                   # Verifica y descarga actualizaciones del repo
@@ -19,3 +20,7 @@ alias log='git log --oneline --graph'   # Muestra los commits de todas las ramas
 alias diff='git diff'                   # Verfica la diferencia entre dos archivos
 alias branch='git branch'               # Muestra ramas creadas o permite la creación de una nueva rama                                                                     │
 alias checkout='git checkout'           # Crea y salta a la nueva rama 
+=======
+alias clone='git clone'   # Clona un repositorio
+alias fetch='git fetch'   # Verifica si hay alguna actualización en el repo
+>>>>>>> fca7f6e74f2fed7edb5554955aeede5fe674b227
