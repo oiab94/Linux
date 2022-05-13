@@ -13,7 +13,7 @@ alias pull='git pull'                   # Verifica y descarga actualizaciones de
 
 alias status='git status'               # Verifica el estado de los archivos con que se trabaja                                                                             │
 alias add='git add'                     # Agrega a la rana un nuevo archivo 
-alias commit='git commmit -m'           # Comenta el nuevo archivo
+alias commit='git commit -m'            # Comenta el nuevo archivo
 alias push='git push'                   # Envia los nuevos archivos al repo
 alias log='git log --oneline --graph'   # Muestra los commits de todas las ramas con un gráfico                                                                             │
 alias diff='git diff'                   # Verfica la diferencia entre dos archivos
