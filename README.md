@@ -5,5 +5,5 @@
 - [Alias](Alias/.bash_aliases)
 
 ## Lista de tareas
-- [ ] Crear alias para git.
-- [ ] Actualizar alias.
+- [X] Crear alias para git.
+- [X] Actualizar alias.
