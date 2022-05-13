@@ -1,6 +1,5 @@
 # BASH Alias
-
-alias ls='ls --color=auto'
+alias l='ls --color=auto; echo -e'
 alias la='ls -a; echo -e'
 alias update='sudo apt update; echo -e'
 alias upgrade='sudo apt upgrade; echo -e'
