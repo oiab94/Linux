@@ -1,6 +1,7 @@
 # BASH Alias
 alias l='ls --color=auto; echo -e'
 alias la='ls -a; echo -e'
+alias c='cdConSalto'
 alias update='sudo apt update; echo -e'
 alias upgrade='sudo apt upgrade; echo -e'
 alias install='sudo apt install'
@@ -17,4 +18,11 @@ alias push='git push'                   # Envia los nuevos archivos al repo
 alias log='git log --oneline --graph'   # Muestra los commits de todas las ramas con un gráfico                                                                             │
 alias diff='git diff'                   # Verfica la diferencia entre dos archivos
 alias branch='git branch'               # Muestra ramas creadas o permite la creación de una nueva rama                                                                     │
-alias checkout='git checkout'           # Crea y salta a la nueva rama 
+alias checkout='git checkout'           # Crea y salta a la nueva rama
+
+# FUNCIONES
+# Imprime un salto al realizar el cambio en el directorio
+function cdConSalto {
+    cd $1;                              # $1 permite ingresar un solo argumento
+    l;                                  # si se quiere más argumentos $@
+}
