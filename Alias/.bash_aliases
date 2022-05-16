@@ -1,6 +1,6 @@
 # BASH Alias
 alias l='ls --color=auto; echo -e'
-alias la='ls -a; echo -e'
+alias la='ls -a --color=auto; echo -e'
 alias c='cdConSalto'
 alias update='sudo apt update; echo -e'
 alias upgrade='sudo apt upgrade; echo -e'
