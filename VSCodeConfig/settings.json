@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Monokai",
+
+    // Customización del editor
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff0000",
+        "editorLineNumber.activeForeground": "#00ff00",
+    },
+
+    // Tamaño de la fuente
+    "editor.fontSize": 20,
+
+    // Tipo de fuente
+    "editor.fontFamily": " Courier New, Consolas",
+
+    // Autoguardado de un archivo después del delay
+    "files.autoSave": "afterDelay",
+
+    // Marca el número de línea
+    "editor.lineNumbers": "on",
+
+    // Marca el límite de línea en la columna
+    "editor.rulers": [80],
+
+    // Habilita los temas para los iconos
+    "workbench.iconTheme": "material-icon-theme",
+    
+    // Color de las carpetas
+    "material-icon-theme.folders.color": "#0000ff"
+}
