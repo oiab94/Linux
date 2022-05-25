@@ -1,30 +1,42 @@
 {
-    "workbench.colorTheme": "Monokai",
+	// Tema de fondo
+	"workbench.colorTheme": "Monokai",
 
-    // Customización del editor
-    "workbench.colorCustomizations": {
-        "editorRuler.foreground": "#ff0000",
-        "editorLineNumber.activeForeground": "#00ff00",
-    },
+	// Customización del editor
+	"workbench.colorCustomizations": {
+		"editorRuler.foreground": "#ff0000",
+		"editorLineNumber.activeForeground": "#00ff00",
+	},
 
-    // Tamaño de la fuente
-    "editor.fontSize": 20,
+	// Tamaño de la fuente
+	"editor.fontSize": 22,
 
-    // Tipo de fuente
-    "editor.fontFamily": " Courier New, Consolas",
+	// Tipo de fuente
+	"editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
 
-    // Autoguardado de un archivo después del delay
-    "files.autoSave": "afterDelay",
+	// Autoguardado de un archivo después del delay
+	"files.autoSave": "afterDelay",
 
-    // Marca el número de línea
-    "editor.lineNumbers": "on",
+	// Marca el número de línea
+	"editor.lineNumbers": "on",
 
-    // Marca el límite de línea en la columna
-    "editor.rulers": [80],
+	// Marca el límite de línea en la columna
+	"editor.rulers": [80],
 
-    // Habilita los temas para los iconos
-    "workbench.iconTheme": "material-icon-theme",
-    
-    // Color de las carpetas
-    "material-icon-theme.folders.color": "#0000ff"
+	// Habilita los temas para los iconos
+	"workbench.iconTheme": "material-icon-theme",
+	
+	// Color de las carpetas
+	"material-icon-theme.folders.color": "#0000ff",
+	
+	// Tamaño del tabulador
+	"editor.tabSize": 2,
+
+  // Inserta espacio cuando se presiona el tabulador
+	"editor.insertSpaces": false,
+
+	// Cuando abre un archivo "editor.tabSize" y "editor.insertSpace"  va a
+	// detectar basado en el contenido del archivo. Si ponemos "false" el archivo 
+	// se quedara marcado con el tipo de identación que hemos marcado
+	"editor.detectIndentation": false
 }
